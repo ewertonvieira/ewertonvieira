@@ -1,6 +1,6 @@
 ## OI, aqui é o Ewerton! 👋
 
-<section align="center">
+<section style="display:inline-block">
     <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height=200 width="-10" align="left" src="https://github-readme-stats.vercel.app/api?username=ewertonvieira" />
     </a>
