@@ -1,10 +1,6 @@
 ## OI, aqui é o Ewerton! 👋
 
 <div>
-    <img height=180 src="https://github-readme-stats.vercel.app/api?username=ewertonvieira&show_icons=true&theme=radical"/>
-</div>
-
-<div>
     <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra" />
     </a>
