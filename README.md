@@ -31,9 +31,5 @@
 
 
 
-## 🐍 Snake contributions
-
-![snake gif](https://raw.githubusercontent.com/ewertonvieira/ewertonvieira/output/github-contribution-grid-snake.svg)
-
 
 
