@@ -31,7 +31,8 @@
 
 
 
-## 🐍 Cobrinha
+## 🐍 Snake contributions
 
-![snake gif](https://github.com/ewertonvieira/ewertonvieira/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://raw.githubusercontent.com/ewertonvieira/ewertonvieira/output/github-contribution-grid-snake.svg)
+
 
