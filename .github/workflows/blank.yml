@@ -1,33 +1,29 @@
-name: CI
+name: Snake Animation
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
-  build:
+  generate-snake-animation:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out code
-        uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v2
 
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
+      - name: Generate snake contribution grid
+        run: |
+          curl -s https://raw.githubusercontent.com/Platane/snk/master/snk.js > snake.js
+          node snake.js
+          
+      - name: Commit and push snake animation
+        uses: EndBug/add-and-commit@v7
         with:
-          php-version: '8.0'
-
-      - name: Install dependencies
-        run: |
-          composer install
-
-      - name: Run tests
-        run: |
-          vendor/bin/phpunit
-
-      - name: Deploy (optional)
-        run: |
-          echo "Deploying to production..."
+          message: "Update snake animation"
+          add: "output/github-contribution-grid-snake.svg"
+          branch: "main"
