@@ -1,10 +1,13 @@
-## OI, aqui é o Ewerton! 👋
+## Oi, aqui é o Ewerton! 👋
 
-<section style="display:inline-block">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="190em" align="left" src="https://github-readme-stats.vercel.app/api?username=ewertonvieira" />
-    </a>
-    <a href="https://github.com/anuraghazra/convoychat">
-    <img height="200em" align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=ewertonvieira&layout=compact&langs_count=8&card_width=320" />
-    </a>
-</section>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center;">
+
+  <a href="https://github.com/ewertonvieira" target="_blank">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ewertonvieira&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
+  </a>
+
+  <a href="https://github.com/ewertonvieira" target="_blank">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ewertonvieira&layout=compact&langs_count=8&theme=radical" />
+  </a>
+
+</div>
